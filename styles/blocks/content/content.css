@@ -1,0 +1,19 @@
+.content {
+  grid-area: content;
+
+  width: 100%;
+
+  margin: 28px 0 68px;
+
+  display: grid;
+  grid-template-rows: repeat(4, max-content);
+  grid-template-columns: 48px 100px calc(100% - 296px) 100px 48px;
+  grid-template-areas:
+  ". . lead . ."
+  ". . intro . ."
+  ". photo-grid photo-grid photo-grid ."
+  ". . places . ."
+  ". cover cover cover .";
+  row-gap: 92px;
+  justify-items: center;
+}

@@ -1,0 +1,11 @@
+.intro {
+  grid-area: intro;
+
+  /* Размеры приняты по размерам lead__image, чтобы текст intro левым краем следовал за границами lead при изменении разрешения */
+  width: 77vw;
+  min-width: 928px;
+  max-width: 984px;
+
+  display: flex;
+  flex-direction: column;
+}

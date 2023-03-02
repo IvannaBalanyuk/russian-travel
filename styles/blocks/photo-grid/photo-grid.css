@@ -1,0 +1,18 @@
+.photo-grid {
+  grid-area: photo-grid;
+
+  /* (1184px * 100 / 1280px) */
+  width: 93vw;
+  min-width: 928px;
+  max-width: 1184px;
+
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 213px);
+  grid-template-columns: repeat(auto-fill, 284px);
+  grid-auto-rows: 213px;
+  gap: 16px;
+  grid-template-areas:
+  "title website"
+  "image text";
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+.place__image {
+  grid-area: image;
+
+  width: 36vw;
+  min-width: 440px;
+  max-width: 460px;
+
+  object-fit: cover;
+  object-position: center top;
+  overflow: hidden;
+}

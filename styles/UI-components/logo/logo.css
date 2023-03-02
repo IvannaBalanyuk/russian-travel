@@ -1,0 +1,13 @@
+.logo {
+  width: 176px;
+  height: 52px;
+  fill: none;
+}
+
+.logo__map {
+  fill: #fff;
+}
+
+.logo__name {
+  fill: #fff;
+}

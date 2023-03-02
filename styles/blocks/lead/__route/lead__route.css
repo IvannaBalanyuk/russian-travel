@@ -1,0 +1,12 @@
+.lead__route {
+  /* (937px * 100 / 1280px) */
+  width: 73vw;
+
+  min-width: 884px;
+  max-width: 937px;
+
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  z-index: 1;
+}

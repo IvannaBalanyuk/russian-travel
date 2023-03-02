@@ -1,0 +1,19 @@
+.footer {
+  grid-area: footer;
+
+  width: 100%;
+
+  padding: 24px 0;
+  box-sizing: border-box;
+
+  background-color: #2A2C2F;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+}
