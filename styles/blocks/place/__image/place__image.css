@@ -1,0 +1,46 @@
+.place__image {
+  grid-area: image;
+
+  width: 100%;
+  min-width: 440px;
+  max-width: 460px;
+
+  object-fit: cover;
+  object-position: left top;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    min-width: 460px;
+    max-width: 575px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__image {
+    min-width: 340px;
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__image {
+    min-width: 300px;
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .place__image {
+    min-width: 394px;
+    max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    min-width: 320px;
+    max-width: 425px;
+  }
+}

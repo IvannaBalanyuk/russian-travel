@@ -2,18 +2,66 @@
   grid-area: content;
 
   width: 100%;
-
-  margin: 28px 0 68px;
+  margin: 20px 0 68px;
 
   display: grid;
-  grid-template-rows: repeat(4, max-content);
-  grid-template-columns: 48px 100px calc(100% - 296px) 100px 48px;
+  grid-template-columns: 48px calc(100% - 96px) 48px;
   grid-template-areas:
-  ". . lead . ."
-  ". . intro . ."
-  ". photo-grid photo-grid photo-grid ."
-  ". . places . ."
-  ". cover cover cover .";
+    ". lead ."
+    ". intro ."
+    ". photo-grid ."
+    ". places ."
+    "cover cover cover";
   row-gap: 92px;
   justify-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .content {
+    margin-top: 28px;
+
+    grid-template-columns: 48px 100px calc(100% - 296px) 100px 48px;
+    grid-template-areas:
+      ". . lead . ."
+      ". . intro . ."
+      ". photo-grid photo-grid photo-grid ."
+      ". . places . ."
+      ". cover cover cover .";
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    margin-bottom: 64px;
+
+    grid-template-columns: 24px calc(100% - 48px) 24px;
+    grid-template-areas:
+      "lead lead lead"
+      ". intro ."
+      ". photo-grid ."
+      ". places ."
+      "cover cover cover";
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .content {
+    margin-top: 32px;
+    margin-bottom: 40px;
+
+    grid-template-columns: 16px calc(100% - 32px) 16px;
+    row-gap: 64px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    grid-template-areas:
+      "lead lead lead"
+      ". intro ."
+      ". photo-grid ."
+      "places places places"
+      "cover cover cover";
+  }
 }

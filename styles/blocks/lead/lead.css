@@ -1,6 +1,8 @@
 .lead {
   grid-area: lead;
 
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;

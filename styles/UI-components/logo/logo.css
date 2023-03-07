@@ -1,13 +1,16 @@
 .logo {
   width: 176px;
-  height: 52px;
   fill: none;
 }
 
-.logo__map {
-  fill: #fff;
+@media screen and (max-width: 767px) {
+  .logo {
+  width: 159px;
+  }
 }
 
-.logo__name {
-  fill: #fff;
+@media screen and (max-width: 695px) {
+  .logo {
+    width: 142px;
+  }
 }

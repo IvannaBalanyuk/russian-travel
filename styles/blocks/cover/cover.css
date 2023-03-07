@@ -1,12 +1,7 @@
 .cover {
   grid-area: cover;
-
-  /* (1184px * 100 / 1280px) */
-  width: 93vw;
-
-  /* Принята минимальная ширина page, т.к. на разрешении 1024px блок теряет отступы */
-  min-width: 1024px;
-  max-width: 1184px;
+  width: 100%;
+  height: initial;
 
   position: relative;
 }

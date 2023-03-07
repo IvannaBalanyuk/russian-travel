@@ -1,0 +1,9 @@
+.footer__menu {
+  width: max-content;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__menu {
+    width: 100%;
+  }
+}

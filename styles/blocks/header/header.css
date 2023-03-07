@@ -2,11 +2,22 @@
   grid-area: header;
 
   width: 100%;
-
   padding: 28px 48px;
   box-sizing: border-box;
 
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+  padding: 28px 24px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .header {
+  padding: 16px;
+  }
 }

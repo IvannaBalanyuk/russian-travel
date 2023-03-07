@@ -1,4 +1,6 @@
 .place__link {
+  width: max-content;
+
   font-size: 18px;
   line-height: 22px;
   border-bottom: 1.5px solid #fff;

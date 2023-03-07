@@ -2,7 +2,6 @@
   grid-area: footer;
 
   width: 100%;
-
   padding: 24px 48px;
   box-sizing: border-box;
 
@@ -16,4 +15,28 @@
   left: 0;
   bottom: 0;
   z-index: 3;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+  padding: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+  flex-direction: column;
+  row-gap: 48px;
+
+  position: static;
+  z-index: 0;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .footer {
+  padding: 24px 16px;
+
+  align-items: flex-start;
+  }
 }
