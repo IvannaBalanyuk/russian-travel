@@ -2,7 +2,7 @@
 /* Подключение нормалайза и шрифтов */
 
   @import url('../vendor/normalize.css');
-  @import url('../commons/fonts.css');
+  @import url('../vendor/fonts.css');
 
 
 /* Подключение блоков страницы */
@@ -69,23 +69,27 @@
 /* Подключение UI-компонентов */
 
   /* logo */
-    @import url('../UI-components/logo/logo.css');
-    @import url('../UI-components/logo/__map/logo__map.css');
-    @import url('../UI-components/logo/__name/logo__name.css');
+    @import url('../blocks/logo/logo.css');
+    @import url('../blocks/logo/__map/logo__map.css');
+    @import url('../blocks/logo/__name/logo__name.css');
 
   /* list */
-    @import url('../UI-components/list/list.css');
+    @import url('../blocks/list/list.css');
 
   /* link */
-    @import url('../UI-components/link/link.css');
-    @import url('../UI-components/link/link_hover.css');
+    @import url('../blocks/link/link.css');
+    @import url('../blocks/link/link_hover.css');
 
   /* route */
-    @import url('../UI-components/route/route.css');
-    @import url('../UI-components/route/__line/route__line.css');
-    @import url('../UI-components/route/__city-names/route__city-names.css');
-    @import url('../UI-components/route/__circles/route__circles.css');
-    @import url('../UI-components/route/__point/route__point.css');
+    @import url('../blocks/route/route.css');
+    @import url('../blocks/route/__line/route__line.css');
+    @import url('../blocks/route/__city-names/route__city-names.css');
+    @import url('../blocks/route/__circles/route__circles.css');
+    @import url('../blocks/route/__point/route__point.css');
 
   /* copyright */
-    @import url('../UI-components/copyright/copyright.css');
+    @import url('../blocks/copyright/copyright.css');
+
+* {
+  outline: 1px solid greenyellow;
+}

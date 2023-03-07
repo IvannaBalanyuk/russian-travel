@@ -12,7 +12,7 @@
 
   text-decoration: none;
   color: #fff;
-  cursor: url(../../../../assets/images/pointer.png) 7 2, pointer;
+  cursor: url(../../../images/pointer.png) 7 2, pointer;
 
   position: absolute;
   left: 0;
