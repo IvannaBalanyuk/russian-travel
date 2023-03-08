@@ -2,6 +2,10 @@
   display: block;
   text-decoration: none;
   color: #fff;
-  cursor: url(../../images/pointer.png) 7 2, pointer;
+  cursor: pointer;
 }
 
+.link:hover {
+  opacity: .6;
+  transition: 600ms;
+}

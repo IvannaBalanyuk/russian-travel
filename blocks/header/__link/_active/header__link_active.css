@@ -1,3 +1,4 @@
 .header__link_active {
-  border-bottom: 1.8px solid #fff;
+  /* Подчеркивание, безусловно, логичнее. Но в макете подчеркивание не такое, как получается с underline (underline выше и тоньше). Именно поэтому тут было border-bottom: 1.8px solid #fff; */
+  text-decoration: underline;
 }
