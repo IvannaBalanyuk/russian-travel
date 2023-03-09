@@ -4,6 +4,5 @@
   font-size: 18px;
   line-height: 22px;
 
-  /* Подчеркивание, безусловно, логичнее. Но в макете подчеркивание не такое, как получается с underline (underline выше, тоньше и прерывается на хвостиках). Именно поэтому тут было border-bottom: 1.5px solid #fff; */
   text-decoration: underline;
 }
