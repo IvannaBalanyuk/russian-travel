@@ -32,9 +32,7 @@
 
 ## GitHub Pages
 
-Проект размещен в открытом доступе:
-
-* [Ссылка на GitHub Pages](https://ivannabalanyuk.github.io/russian-travel/)
+* [https://ivannabalanyuk.github.io/russian-travel/](https://ivannabalanyuk.github.io/russian-travel/)
 
 ---
 
