@@ -1,41 +1,24 @@
 # Проект: Путешествия по России
 
-### Обзор
-* О проекте
-* О сайте
-* Технологии
-* Figma
-* GitHub Pages
-
----
-
-## О проекте
+## О проекте:
 Проект выполнен в рамках курса **"Веб-разработчик+"** образовательной платформы **Яндекс.Практикум**.
 
----
-
-## О сайте
+## О сайте:
 
 **"Путешествия по России"** - одностраничный сайт об интересных местах, которые путешественнику стоит посетить в России.
 
----
-
-### Технологии
-![HTML](https://camo.githubusercontent.com/8e3d922bd60d3971eae63d9f73fcdf841287c4e2fa08b6b88cd3e1c7c3bc5b5a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c352d3039303930393f7374796c653d666f722d7468652d6261646765266c6f676f3d48544d4c35)
-![HTML](https://camo.githubusercontent.com/62938cbccb9528494946fda092632ad4563a35d08abd2ef8015fc2e9244f6ea7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d435353332d3039303930393f7374796c653d666f722d7468652d6261646765266c6f676f3d43535333)  
+## Технологии:
+- HTML (HTML5)
+- CSS (CSS3)
 
 Сетка страницы построена с использованием grid и flexbox.
 
 Адаптивность обеспечена применением медиазапросов в сочетании с относительными единицами в размерах блоков.
 
----
-
-## GitHub Pages
+## GitHub Pages:
 
 * [https://ivannabalanyuk.github.io/russian-travel/](https://ivannabalanyuk.github.io/russian-travel/)
 
----
+## Figma:
 
-**Figma**
-
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
